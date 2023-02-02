@@ -2,7 +2,9 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    // display: grid;
+    // justify-items: center;
+    // justify-content: space-between;
 }
 @import url(block_one.css);
 @import url(block_two.css);
