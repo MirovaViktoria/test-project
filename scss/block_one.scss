@@ -1,0 +1,76 @@
+.block-one {
+    animation: block1 1s ease 4s 1 normal forwards;
+    width: 300px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../img/light\ 2.png'), url('../img/clouds.png');
+    &__title {
+        margin: 0;
+        padding-left: 7px;
+        padding-top: 38.65px;
+        height: 74px;
+    }
+
+    &__subtitle {
+        margin: 0;
+        height: 19px;
+        padding-top: 10.6px;
+        font-family: 'Roboto';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 16.3956px;
+        line-height: 19px;
+        text-align: center;
+        color: #2d8957;
+    }
+
+    &__subtitle-span {
+        margin: 0;
+        font-family: 'Roboto';
+        font-style: italic;
+        font-weight: 700;
+        font-size: 16.3956px;
+        line-height: 19px;
+        text-align: center;
+        color: #2d8957;
+    }
+    &__image {
+        margin: 0;
+        width: 239px;
+        display: flex;
+        margin-top: 30.82px;
+    }
+    &__image-background {
+        width: 112.43px;
+        height: 115.17px;
+        box-sizing: border-box;
+        background: linear-gradient(186.15deg, #f7faba 0.42%, #c5eb9d 63.56%);
+        border: 0.918963px solid #ffffff;
+        border-radius: 27.5689px;
+        margin-bottom: 12px;
+    }
+    &__image-one {
+        width: 112.34px;
+    }
+    &__image-two {
+        width: 112.34px;
+        margin-left: 14.72px;
+    }
+    #img {
+        transition: 1s;
+    }
+    #img:hover {
+        transform: scale(1.1);
+    }
+}
+@keyframes block1 {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
